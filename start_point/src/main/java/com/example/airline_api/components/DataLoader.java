@@ -50,12 +50,12 @@ public class DataLoader  implements ApplicationRunner {
         londonFlight.getPassengers().add(passenger4);
         passengerRepository.save(passenger4);
 
-        Passenger passenger5 = new Passenger("Sarah", "lee@hotmail.com");
+        Passenger passenger5 = new Passenger("lee", "lee@hotmail.com");
         passenger5.getFlights().add(londonFlight);
         londonFlight.getPassengers().add(passenger5);
         passengerRepository.save(passenger5);
 
-        Passenger passenger6 = new Passenger("Sarah", "cleo@hotmail.com");
+        Passenger passenger6 = new Passenger("cleo", "cleo@hotmail.com");
         passenger6.getFlights().add(londonFlight);
         londonFlight.getPassengers().add(passenger6);
         passengerRepository.save(passenger6);
